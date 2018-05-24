@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#nav {
+  background-color: #E7E5DF;
+  padding: 20px;
+  overflow: auto;
+  margin: 0 auto;
+  font-family: "arial"
+}
+
+#logo {
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+}
+
+#navbutt {
+  float: right;
+  list-style: none;
+}
+
+#navbutt .btn:hover {
+    background-color: yellow;
+}
+
+#navbutt li {
+  float: left;
+  margin: 0 20px;
+}
+
+
+#corpo {
+  background-color: #F0EFF0;
+  text-align: center;
+  font-family: "arial"
+}
+
+#Nome {
+  
+  font-size: 30px;
+  width: 1000px;
+  /*border: 1px solid gray;*/
+  box-sizing: border-box;
+  margin: 25px auto 0px auto;
+  padding: 25px;
+  overflow: auto;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#box {
+  background-color: #E7E5DF;
+  width: 1000px;
+  /*border: 1px solid gray;*/
+  box-sizing: border-box;
+  margin: 25px auto 0px auto;
+  padding: 0px;
+  overflow: auto;
+
+}
+
+
+
+h2 {
+  font-size: 20px;
+  width: 1000px;
+  box-sizing: border-box;
+  margin: 0px auto;
+  padding: 25px;
+  overflow: auto;
+  font-weight: bold;
+}
+
+
+.bio {
+  text-align: left;
+  width: 100%;
+  /*border: 2px solid gray;*/
+  box-sizing: border-box;
+  margin: auto;
+  padding: 25px;
+
+}
+
+
+.point {
+  text-align: left;
+  width: 90%;
+  /*border: 2px solid gray;*/
+  box-sizing: border-box;
+  margin: auto;
+  padding: 15px ;
+
+}
+
+#Frankpic {
+  width: 40%;
+  margin: 25px 60px 25px 50px;
+  padding: auto 30px 80px auto;
+  float: left;
+}
+
+
+.linkedin {
+  text-align: left;
+  font-weight: bold;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 25px;
+}
