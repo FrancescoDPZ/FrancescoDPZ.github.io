@@ -59,7 +59,7 @@ body {
   padding: 0;
 }
 
-#box {
+#container {
   background-color: #E7E5DF;
   width: 1000px;
   /*border: 1px solid gray;*/
@@ -118,6 +118,22 @@ h2 {
   box-sizing: border-box;
   margin: auto;
   padding: 25px;
+}
+
+@media (max-width: 768px) {
+
+  #container img {
+    float: none;
+    width: 100%;
+    }
+
+  .bio {
+    float: left;
+    width: 100%;
+    padding: 40px;
+    }
+
+
 }
 
 
