@@ -58,9 +58,9 @@ body {
 
 
 #interstazione {
-
+  background-color: white;
   font-size: 30px;
-  width: 100%;
+  width: 50%;
   /*border: 1px solid gray;*/
   box-sizing: border-box;
   margin: 100px auto 0px auto;
