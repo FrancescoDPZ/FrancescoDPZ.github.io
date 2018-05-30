@@ -75,7 +75,7 @@ body {
 #photo div {
   width: 70%;
   border: 3px ;
-  margin: auto;
+/*  margin: auto; */
   margin-bottom: 40px;
   box-sizing: border-box;
   padding:5px;
