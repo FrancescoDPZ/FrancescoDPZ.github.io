@@ -44,29 +44,9 @@ body {
 
 
 #container {
-  background-color: #F0EFF0;
+  background-color: white;
   text-align: center;
-  font-family: "arial"
-}
-
-#Nome {
-
-  font-size: 30px;
-  width: 1000px;
-  /*border: 1px solid gray;*/
-  box-sizing: border-box;
-  margin: 25px auto 0px auto;
-  padding: 25px;
-  overflow: auto;
-}
-
-*{
-  margin: 0;
-  padding: 0;
-}
-
-#container {
-  background-color: #E7E5DF;
+  font-family: "arial";
   width: 100%;
   /*border: 1px solid gray;*/
   box-sizing: border-box;
@@ -75,6 +55,20 @@ body {
   overflow: auto;
 
 }
+
+
+#interstazione {
+
+  font-size: 30px;
+  width: 100%;
+  /*border: 1px solid gray;*/
+  box-sizing: border-box;
+  margin: 100px auto 0px auto;
+  padding: 25px;
+  overflow: auto;
+}
+
+
 
 
 
@@ -137,17 +131,21 @@ h1 {
   text-align: center;
 }
 
-  ul {
+ul {
     text-align: center;
     float: none;
   }
 
+  #Frankpic {
+    width: 30%;
+  }
 
-  #container {
+
+#container {
     text-align: center;
   }
 
-  #container img {
+#container img {
     float: none;
     height: 50%;
     width: 100%;
@@ -157,7 +155,7 @@ h1 {
 
     }
 
-  .bio {
+.bio {
     float: left;
     width: 100%;
     padding: 40px;
