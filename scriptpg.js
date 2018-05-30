@@ -4,10 +4,10 @@ function myFunction() {
 
     // Declare variables
     var input, filter, photo, figcaption, img, i;
-    input = document.getElementById('myInput');
+    input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     photo = document.getElementById("photo");
-    figcaption = photo.getElementsByTagName('figcaption');
+    figcaption = photo.getElementsByTagName("figcaption");
 
 
     // Loop through all list items, and hide those who don't match the search query
