@@ -50,8 +50,8 @@ body {
   width: 100%;
   /*border: 1px solid gray;*/
   box-sizing: border-box;
-  margin: 25px auto;
-  padding: 0px;
+  margin: 0px;
+  padding: 20px auto 20px auto;
   overflow: auto;
 
 }
@@ -63,12 +63,10 @@ body {
   width: 100%;
   /*border: 1px solid gray;*/
   box-sizing: border-box;
-  margin: 30px auto 0px auto;
+  margin: 20px auto 0px auto;
   padding: 25px;
   overflow: auto;
 }
-
-
 
 
 
