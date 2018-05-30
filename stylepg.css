@@ -76,6 +76,7 @@ body {
   width: 70%;
   border: 3px ;
   margin: auto;
+  margin-bottom: 45px;
   box-sizing: border-box;
   padding:5px;
 }
