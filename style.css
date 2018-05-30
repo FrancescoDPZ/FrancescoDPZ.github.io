@@ -27,6 +27,7 @@ body {
 }
 
 #navbutt {
+  font-size: 20px;
   float: right;
   list-style: none;
 }
@@ -39,6 +40,15 @@ body {
   float: left;
   margin: 0 20px;
 }
+
+
+
+/* Content */
+
+.container {
+  padding: auto;
+}
+
 
 
 /* Index Menu */
