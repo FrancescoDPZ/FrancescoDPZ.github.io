@@ -136,7 +136,7 @@ p {
 
 
     img {
-      width:90%;
+      width:75%;
       padding:15px;
       box-sizing: border-box;
       display: block;
@@ -149,5 +149,6 @@ p {
     width: 45%;
     font-size: 17px;
     font-style: normal;
+    padding: 15px;
   }
 }
