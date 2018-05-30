@@ -81,7 +81,7 @@ p {
   box-sizing: border-box;
   height:auto;
   padding:15px;
-
+  width: 90%;
   font-size: 15px;
   font-style: normal;
   font-family: arial, sans-serif;
