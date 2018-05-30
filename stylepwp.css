@@ -60,10 +60,10 @@ body {
 #interstazione {
   background-color: white;
   font-size: 30px;
-  width: 50%;
+  width: 100%;
   /*border: 1px solid gray;*/
   box-sizing: border-box;
-  margin: 100px auto 0px auto;
+  margin: 40px auto 0px auto;
   padding: 25px;
   overflow: auto;
 }
