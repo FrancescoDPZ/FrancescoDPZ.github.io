@@ -1,6 +1,19 @@
 
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#photo div").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
 
-function myFunction() {
+
+
+
+
+
+/*function myFunction() {
 
     // Declare variables
     var input, filter, ul, li, figcaption, i;
@@ -21,3 +34,4 @@ function myFunction() {
         }
     }
 }
+*/
