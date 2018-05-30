@@ -8,6 +8,8 @@ body {
   font-family: sans-serif;
 }
 
+ /* Header - Menu */
+
 #nav {
   background-color: #E7E5DF;
   padding: 20px;
@@ -16,10 +18,11 @@ body {
   font-family: "arial"
 }
 
-#logo {
+h1 {
   font-size: 30px;
   font-weight: bold;
   float: left;
+
 }
 
 #navbutt {
@@ -37,7 +40,10 @@ body {
 }
 
 
-#corpo {
+ /* content */
+
+
+#container {
   background-color: #F0EFF0;
   text-align: center;
   font-family: "arial"
@@ -61,7 +67,7 @@ body {
 
 #container {
   background-color: #E7E5DF;
-  width: 1000px;
+  width: 100%;
   /*border: 1px solid gray;*/
   box-sizing: border-box;
   margin: 25px auto 0px auto;
@@ -74,12 +80,12 @@ body {
 
 h2 {
   font-size: 20px;
-  width: 1000px;
+
   box-sizing: border-box;
   margin: 0px auto;
   padding: 25px;
   overflow: auto;
-  font-weight: bold;
+
 }
 
 
@@ -120,17 +126,42 @@ h2 {
   padding: 25px;
 }
 
+
+
 @media (max-width: 768px) {
+
+h1 {
+  font-size: 15px;
+  font-weight: bold;
+  float: none;
+  text-align: center;
+}
+
+  ul {
+    text-align: center;
+    float: none;
+  }
+
+
+  #container {
+    text-align: center;
+  }
 
   #container img {
     float: none;
+    height: 50%;
     width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
     }
 
   .bio {
     float: left;
     width: 100%;
     padding: 40px;
+
     }
 
 
@@ -150,7 +181,7 @@ h2 {
 
 #indexBar ul li {
   list-style-type: none;
-}  
+}
 
   #indexBar li a {
   color: white;
