@@ -76,7 +76,7 @@ body {
   width: 70%;
   border: 3px ;
   margin: auto;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
   box-sizing: border-box;
   padding:5px;
 }
@@ -130,6 +130,7 @@ figcaption {
     float:left;
     width: 49%;
     margin: auto;
+    margin-bottom: 40px;
   }
 }
 
@@ -138,6 +139,7 @@ figcaption {
     float:left;
     width: 32%;
     margin: auto;
+    margin-bottom: 40px;
   }
 }
 
@@ -146,6 +148,7 @@ figcaption {
     float:left;
     width: 24%;
     margin: auto;
+    margin-bottom: 40px;
 
   }
 }

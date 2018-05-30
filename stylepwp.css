@@ -50,7 +50,7 @@ body {
   width: 100%;
   /*border: 1px solid gray;*/
   box-sizing: border-box;
-  margin: 25px auto 0px auto;
+  margin: 25px auto;
   padding: 0px;
   overflow: auto;
 
@@ -63,7 +63,7 @@ body {
   width: 100%;
   /*border: 1px solid gray;*/
   box-sizing: border-box;
-  margin: 40px auto 0px auto;
+  margin: 30px auto 0px auto;
   padding: 25px;
   overflow: auto;
 }
@@ -119,8 +119,6 @@ h2 {
   margin: auto;
   padding: 25px;
 }
-
-
 
 
 
