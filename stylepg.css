@@ -64,15 +64,15 @@ body {
   margin: 0 0 0 25px;
 }
 
-.photo div {
+.photo li {
     border: 3px;
 }
 
-.photo div:hover {
+.photo li:hover {
     background-color: #FAF56B ;
 }
 
-.photo div {
+.photo li {
   width: 70%;
   border: 3px ;
   margin: auto;
