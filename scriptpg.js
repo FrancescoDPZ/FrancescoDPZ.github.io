@@ -7,7 +7,7 @@ function myFunction() {
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     photo = document.getElementById("photo");
-    img = photo.getElementsByTagName("img");
+    img = photo.getElementsByTagName("div");
 
 
     // Loop through all list items, and hide those who don't match the search query
