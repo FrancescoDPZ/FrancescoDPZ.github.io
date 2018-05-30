@@ -7,7 +7,7 @@ function myFunction() {
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     ul = document.getElementById("photo");
-    li = photo.getElementsByTagName("li");
+    li = photo.getElementsByTagName("div");
 
 
     // Loop through all list items, and hide those who don't match the search query
@@ -17,6 +17,7 @@ function myFunction() {
             li[i].style.display = "";
         } else {
             li[i].style.display = "none";
+
         }
     }
 }

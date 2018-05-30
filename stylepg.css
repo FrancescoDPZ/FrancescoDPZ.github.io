@@ -58,21 +58,21 @@ body {
 
 /*Photogallery*/
 
-.photo {
+#photo {
   width: 100%;
   overflow: auto;
   margin: 0 0 0 25px;
 }
 
-.photo div {
+#photo div {
     border: 3px;
 }
 
-.photo div:hover {
+#photo div:hover {
     background-color: #FAF56B ;
 }
 
-.photo div {
+#photo div {
   width: 70%;
   border: 3px ;
   margin: auto;
@@ -119,7 +119,7 @@ body {
 
 
 @media (min-width: 768px) {
-  .photo div {
+  #photo div {
     float:left;
     width: 49%;
     margin: auto;
@@ -127,7 +127,7 @@ body {
 }
 
 @media (min-width: 992px) {
-  .photo div {
+  #photo div {
     float:left;
     width: 32%;
     margin: auto;
@@ -135,7 +135,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .photo div {
+  #photo div {
     float:left;
     width: 24%;
     margin: auto;
